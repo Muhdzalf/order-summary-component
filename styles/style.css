@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    ;
+}
+
+footer {
+    font-size: 11px;
+    text-align: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    /* padding-left: 10px; */
+}
+
+.summary {
+    text-align: center;
+    padding: 26px;
+}
+
+.plan-card {
+    margin: 10px auto;
+    padding: 16px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+}
+
+.flex-row>.flex-column {
+    padding: 0px 16px;
+}
+
+.flex-row>a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+}
+
+.button {
+    margin-top: 15px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.primary {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 29px 26px -17px rgba(56, 41, 224);
+}
+
+.secondary {
+    color: hsl(223, 47%, 23%);
+}
+
+.double {
+    flex-basis: 60%;
+}
+
+.single {
+    flex-basis: 20%;
+}
+
+.card {
+    margin: 50px auto;
+    background-color: white;
+    width: 375px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 39px -12px rgba(56, 41, 224);
+
+}
+
+img {
+    max-width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+    /* font-weight: 600; */
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        margin: 20px auto;
+        width: 300px;
+    }
+}
